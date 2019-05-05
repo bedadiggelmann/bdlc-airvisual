@@ -5,7 +5,7 @@
 ## ##################################################
 ## convert latest
 
-cat data/test.json | jq -c ' .forecasts[] |
+cat data/test.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Test City"
 ,  ts:      	.ts
@@ -19,13 +19,13 @@ cat data/test.json | jq -c ' .forecasts[] |
 ,  wd:   	 	.wd
 ,  ic:     		.ic
 }
-' > data/test.forecastedpollution.json
+' > data/test.forecast.json
 
-cat data/test.json | jq -c ' .history.polution[] |
+cat data/test.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Test City"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
 }
-' > data/test.actualpoluution.json
+' > data/test.pollution.json
