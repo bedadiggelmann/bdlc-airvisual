@@ -1,0 +1,1 @@
+{"status":"success","data":{"city":"Sarajevo","state":"Federation of B&H","country":"Bosnia Herzegovina","location":{"type":"Point","coordinates":[18.3972,43.8559]},"current":{"weather":{"ts":"2019-05-03T18:00:00.000Z","hu":44,"ic":"02n","pr":1010,"tp":16,"wd":0,"ws":1.5},"pollution":{"ts":"2019-05-03T18:00:00.000Z","aqius":44,"mainus":"o3","aqicn":34,"maincn":"o3"}}}}
