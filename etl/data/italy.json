@@ -1,1 +1,0 @@
-{"status":"success","data":{"city":"Venice","state":"Veneto","country":"Italy","location":{"type":"Point","coordinates":[12.207563,45.4756216]},"current":{"weather":{"ts":"2019-05-05T12:00:00.000Z","hu":81,"ic":"10d","pr":1002,"tp":9,"wd":30,"ws":9.3},"pollution":{"ts":"2019-05-05T13:00:00.000Z","aqius":4,"mainus":"p2","aqicn":1,"maincn":"p2"}}}}

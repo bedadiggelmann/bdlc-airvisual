@@ -1,1 +1,0 @@
-{"status":"success","data":{"city":"Bratislava","state":"Bratislava","country":"Slovakia","location":{"type":"Point","coordinates":[17.1106799,48.1448921]},"current":{"weather":{"ts":"2019-05-05T13:00:00.000Z","hu":81,"ic":"10d","pr":1009,"tp":5,"wd":350,"ws":9.3},"pollution":{"ts":"2019-05-05T13:00:00.000Z","aqius":17,"mainus":"p2","aqicn":12,"maincn":"n2"}}}}

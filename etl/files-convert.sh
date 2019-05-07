@@ -13,7 +13,7 @@ source ./config.sh
 cat data/switzerland.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Bern"
-   country:		"Switzerland"
+,  country:		"Switzerland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -30,7 +30,7 @@ cat data/switzerland.json | jq -c ' .data.forecasts[] |
 cat data/switzerland.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Bern"
-   country:		"Switzerland"
+,  country:		"Switzerland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -44,7 +44,7 @@ cat data/switzerland.json | jq -c ' .data.history.pollution[] |
 cat data/germany.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Berlin"
-   country:		"Germany"
+,  country:		"Germany"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -61,7 +61,7 @@ cat data/germany.json | jq -c ' .data.forecasts[] |
 cat data/germany.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Berlin"
-   country:		"Germany"
+,  country:		"Germany"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -74,7 +74,7 @@ cat data/germany.json | jq -c ' .data.history.pollution[] |
 cat data/belgium.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Brussels"
-   country:		"Belgium"
+,  country:		"Belgium"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -91,7 +91,7 @@ cat data/belgium.json | jq -c ' .data.forecasts[] |
 cat data/belgium.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Brussels"
-   country:		"Belgium"
+,  country:		"Belgium"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -104,7 +104,7 @@ cat data/belgium.json | jq -c ' .data.history.pollution[] |
 cat data/andorra.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Escaldes-Engordany"
-   country:		"Andorra"
+,  country:		"Andorra"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -121,7 +121,7 @@ cat data/andorra.json | jq -c ' .data.forecasts[] |
 cat data/andorra.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Escaldes-Engordany"
-   country:		"Andorra"
+,  country:		"Andorra"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -134,7 +134,7 @@ cat data/andorra.json | jq -c ' .data.history.pollution[] |
 cat data/austria.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Vienna"
-   country:		"Austria"
+,  country:		"Austria"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -151,7 +151,7 @@ cat data/austria.json | jq -c ' .data.forecasts[] |
 cat data/austria.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Vienna"
-   country:		"Austria"
+,  country:		"Austria"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -164,7 +164,7 @@ cat data/austria.json | jq -c ' .data.history.pollution[] |
 cat data/bosnia.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Sarajevo"
-   country:		"Bosnia-Herzegovina"
+,  country:		"Bosnia-Herzegovina"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -181,7 +181,7 @@ cat data/bosnia.json | jq -c ' .data.forecasts[] |
 cat data/bosnia.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Sarajevo"
-   country:		"Bosnia-Herzegovina"
+,  country:		"Bosnia-Herzegovina"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -194,7 +194,7 @@ cat data/bosnia.json | jq -c ' .data.history.pollution[] |
 cat data/bulgaria.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Sofia"
-   country:		"Bulgaria"
+,  country:		"Bulgaria"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -211,7 +211,7 @@ cat data/bulgaria.json | jq -c ' .data.forecasts[] |
 cat data/bulgaria.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Sofia"
-   country:		"Bulgaria"
+,  country:		"Bulgaria"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -224,7 +224,7 @@ cat data/bulgaria.json | jq -c ' .data.history.pollution[] |
 cat data/cyprus.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Nicosia"
-   country:		"Cyprus"
+,  country:		"Cyprus"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -241,7 +241,7 @@ cat data/cyprus.json | jq -c ' .data.forecasts[] |
 cat data/cyprus.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Nicosia"
-   country:		"Cyprus"
+,  country:		"Cyprus"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -254,7 +254,7 @@ cat data/cyprus.json | jq -c ' .data.history.pollution[] |
 cat data/czechrepublic.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Prague"
-   country:		"czechrepublic"
+,  country:		"czechrepublic"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -271,7 +271,7 @@ cat data/czechrepublic.json | jq -c ' .data.forecasts[] |
 cat data/czechrepublic.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Prague"
-   country:		"czechrepublic"
+,  country:		"czechrepublic"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -284,7 +284,7 @@ cat data/czechrepublic.json | jq -c ' .data.history.pollution[] |
 cat data/denmark.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Copenhagen"
-   country:		"denmark"
+,  country:		"denmark"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -301,7 +301,7 @@ cat data/denmark.json | jq -c ' .data.forecasts[] |
 cat data/denmark.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Copenhagen"
-   country:		"denmark"
+,  country:		"denmark"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -314,7 +314,7 @@ cat data/denmark.json | jq -c ' .data.history.pollution[] |
 cat data/finland.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Helsinki"
-   country:		"finland"
+,  country:		"finland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -331,7 +331,7 @@ cat data/finland.json | jq -c ' .data.forecasts[] |
 cat data/finland.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Helsinki"
-   country:		"finland"
+,  country:		"finland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -344,7 +344,7 @@ cat data/finland.json | jq -c ' .data.history.pollution[] |
 cat data/france.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Paris"
-   country:		"france"
+,  country:		"france"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -361,7 +361,7 @@ cat data/france.json | jq -c ' .data.forecasts[] |
 cat data/france.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Paris"
-   country:		"france"
+,  country:		"france"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -374,7 +374,7 @@ cat data/france.json | jq -c ' .data.history.pollution[] |
 cat data/hungary.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Budapest"
-   country:		"hungary"
+,  country:		"hungary"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -391,7 +391,7 @@ cat data/hungary.json | jq -c ' .data.forecasts[] |
 cat data/hungary.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Budapest"
-   country:		"hungary"
+,  country:		"hungary"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -404,7 +404,7 @@ cat data/hungary.json | jq -c ' .data.history.pollution[] |
 cat data/ireland.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Dublin"
-   country:		"ireland"
+,  country:		"ireland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -421,7 +421,7 @@ cat data/ireland.json | jq -c ' .data.forecasts[] |
 cat data/ireland.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Dublin"
-   country:		"ireland"
+,  country:		"ireland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -434,7 +434,7 @@ cat data/ireland.json | jq -c ' .data.history.pollution[] |
 cat data/Italy.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Venice"
-   country:		"Italy"
+,  country:		"Italy"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -451,7 +451,7 @@ cat data/Italy.json | jq -c ' .data.forecasts[] |
 cat data/Italy.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Venice"
-   country:		"Italy"
+,  country:		"Italy"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -464,7 +464,7 @@ cat data/Italy.json | jq -c ' .data.history.pollution[] |
 cat data/latvia.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Riga"
-   country:		"latvia"
+,  country:		"latvia"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -481,7 +481,7 @@ cat data/latvia.json | jq -c ' .data.forecasts[] |
 cat data/latvia.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Riga"
-   country:		"latvia"
+,  country:		"latvia"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -494,7 +494,7 @@ cat data/latvia.json | jq -c ' .data.history.pollution[] |
 cat data/lithuania.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Vilnius"
-   country:		"lithuania"
+,  country:		"lithuania"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -511,7 +511,7 @@ cat data/lithuania.json | jq -c ' .data.forecasts[] |
 cat data/lithuania.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Vilnius"
-   country:		"lithuania"
+,  country:		"lithuania"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -524,7 +524,7 @@ cat data/lithuania.json | jq -c ' .data.history.pollution[] |
 cat data/luxembourg.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Esch-sur-Alzette"
-   country:		"luxembourg"
+,  country:		"luxembourg"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -541,7 +541,7 @@ cat data/luxembourg.json | jq -c ' .data.forecasts[] |
 cat data/luxembourg.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Esch-sur-Alzette"
-   country:		"luxembourg"
+,  country:		"luxembourg"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -554,7 +554,7 @@ cat data/luxembourg.json | jq -c ' .data.history.pollution[] |
 cat data/macedonia.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Skopje"
-   country:		"macedonia"
+,  country:		"macedonia"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -571,7 +571,7 @@ cat data/macedonia.json | jq -c ' .data.forecasts[] |
 cat data/macedonia.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Skopje"
-   country:		"macedonia"
+,  country:		"macedonia"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -584,7 +584,7 @@ cat data/macedonia.json | jq -c ' .data.history.pollution[] |
 cat data/netherlands.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Amsterdam"
-   country:		"netherlands"
+,  country:		"netherlands"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -601,7 +601,7 @@ cat data/netherlands.json | jq -c ' .data.forecasts[] |
 cat data/netherlands.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Amsterdam"
-   country:		"netherlands"
+,  country:		"netherlands"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -614,7 +614,7 @@ cat data/netherlands.json | jq -c ' .data.history.pollution[] |
 cat data/norway.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Oslo"
-   country:		"norway"
+,  country:		"norway"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -631,7 +631,7 @@ cat data/norway.json | jq -c ' .data.forecasts[] |
 cat data/norway.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Oslo"
-   country:		"norway"
+,  country:		"norway"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -644,7 +644,7 @@ cat data/norway.json | jq -c ' .data.history.pollution[] |
 cat data/poland.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Warsaw"
-   country:		"poland"
+,  country:		"poland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -661,7 +661,7 @@ cat data/poland.json | jq -c ' .data.forecasts[] |
 cat data/poland.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Warsaw"
-   country:		"poland"
+,  country:		"poland"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -674,7 +674,7 @@ cat data/poland.json | jq -c ' .data.history.pollution[] |
 cat data/portugal.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Lisbon"
-   country:		"portugal"
+,  country:		"portugal"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -691,7 +691,7 @@ cat data/portugal.json | jq -c ' .data.forecasts[] |
 cat data/portugal.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Lisbon"
-   country:		"portugal"
+,  country:		"portugal"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -704,7 +704,7 @@ cat data/portugal.json | jq -c ' .data.history.pollution[] |
 cat data/romania.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Bucharest"
-   country:		"romania"
+,  country:		"romania"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -721,7 +721,7 @@ cat data/romania.json | jq -c ' .data.forecasts[] |
 cat data/romania.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Bucharest"
-   country:		"romania"
+,  country:		"romania"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -734,7 +734,7 @@ cat data/romania.json | jq -c ' .data.history.pollution[] |
 cat data/slovakia.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Bratislava"
-   country:		"slovakia"
+,  country:		"slovakia"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -751,7 +751,7 @@ cat data/slovakia.json | jq -c ' .data.forecasts[] |
 cat data/slovakia.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Bratislava"
-   country:		"slovakia"
+,  country:		"slovakia"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -764,7 +764,7 @@ cat data/slovakia.json | jq -c ' .data.history.pollution[] |
 cat data/spain.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Madrid"
-   country:		"spain"
+,  country:		"spain"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -781,7 +781,7 @@ cat data/spain.json | jq -c ' .data.forecasts[] |
 cat data/spain.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Madrid"
-   country:		"spain"
+,  country:		"spain"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -794,7 +794,7 @@ cat data/spain.json | jq -c ' .data.history.pollution[] |
 cat data/sweden.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Stockholm"
-   country:		"sweden"
+,  country:		"sweden"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -811,7 +811,7 @@ cat data/sweden.json | jq -c ' .data.forecasts[] |
 cat data/sweden.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Stockholm"
-   country:		"sweden"
+,  country:		"sweden"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -824,7 +824,7 @@ cat data/sweden.json | jq -c ' .data.history.pollution[] |
 cat data/turkey.json | jq -c ' .data.forecasts[] |
 {	
    city:		"Ankara"
-   country:		"turkey"
+,  country:		"turkey"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -841,7 +841,7 @@ cat data/turkey.json | jq -c ' .data.forecasts[] |
 cat data/turkey.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"Ankara"
-   country:		"turkey"
+,  country:		"turkey"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -854,7 +854,7 @@ cat data/turkey.json | jq -c ' .data.history.pollution[] |
 cat data/uk.json | jq -c ' .data.forecasts[] |
 {	
    city:		"London"
-   country:		"uk"
+,  country:		"uk"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
@@ -871,7 +871,7 @@ cat data/uk.json | jq -c ' .data.forecasts[] |
 cat data/uk.json | jq -c ' .data.history.pollution[] |
 {	
    city:		"London"
-   country:		"uk"
+,  country:		"uk"
 ,  ts:      	.ts
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn

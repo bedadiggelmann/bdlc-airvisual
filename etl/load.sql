@@ -16,7 +16,7 @@ use airvisual_api;
 -- --------------------------------------------------
 -- daten verschieben
 LOAD DATA INPATH '/user/bd01/load/forecast.json'     OVERWRITE INTO TABLE src_forcast_json;
-LOAD DATA INPATH '/user/bd01/load/pollution.measurements.json' OVERWRITE INTO TABLE src_pollution_json;
+LOAD DATA INPATH '/user/bd01/load/pollution.json' OVERWRITE INTO TABLE src_pollution_json;
 
 -- hive:    local on client
 -- beeline: "local" on server

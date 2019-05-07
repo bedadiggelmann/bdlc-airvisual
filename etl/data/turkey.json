@@ -1,1 +1,0 @@
-{"status":"success","data":{"city":"Ankara","state":"Ankara","country":"Turkey","location":{"type":"Point","coordinates":[32.795669728836046,39.96773888667552]},"current":{"weather":{"ts":"2019-05-05T12:00:00.000Z","hu":43,"ic":"03d","pr":1014,"tp":21,"wd":190,"ws":3.6},"pollution":{"ts":"2019-05-05T13:00:00.000Z","aqius":67,"mainus":"p2","aqicn":28,"maincn":"p2"}}}}
