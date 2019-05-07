@@ -29,12 +29,8 @@ CREATE TABLE IF NOT EXISTS src_pollution_json
 
 -- --------------------------------------------------
 -- DDL src_* Views
-DROP VIEW IF EXISTS src_latest_location;
-DROP VIEW IF EXISTS src_latest_measurements;
-
--- so viele get_json_object aufrufe sind nich sonderlich effizient
--- aber die datenmenge ist überschaubar
--- die views werden materialisiert (siehe unten)
+DROP VIEW IF EXISTS src_forecast;
+DROP VIEW IF EXISTS src_pollution;
 
 
 CREATE VIEW IF NOT EXISTS src_forecast AS
