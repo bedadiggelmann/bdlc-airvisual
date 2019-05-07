@@ -1,1 +1,1 @@
-{"status":"fail","data":{"message":"call_per_minute_limit_reached"}}
+{"status":"success","data":{"city":"Ankara","state":"Ankara","country":"Turkey","location":{"type":"Point","coordinates":[32.795669728836046,39.96773888667552]},"current":{"weather":{"ts":"2019-05-07T15:00:00.000Z","hu":33,"ic":"04d","pr":1007,"tp":17,"wd":260,"ws":8.7},"pollution":{"ts":"2019-05-07T16:00:00.000Z","aqius":221,"mainus":"p2","aqicn":220,"maincn":"p2"}}}}

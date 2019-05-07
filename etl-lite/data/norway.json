@@ -1,1 +1,1 @@
-{"status":"fail","data":{"message":"call_per_minute_limit_reached"}}
+{"status":"success","data":{"city":"Oslo","state":"Oslo","country":"Norway","location":{"type":"Point","coordinates":[10.683366,59.9374561]},"current":{"weather":{"ts":"2019-05-07T16:00:00.000Z","hu":33,"ic":"09d","pr":1005,"tp":8,"wd":260,"ws":2.6},"pollution":{"ts":"2019-05-07T05:00:00.000Z","aqius":22,"mainus":"p2","aqicn":10,"maincn":"p1"}}}}

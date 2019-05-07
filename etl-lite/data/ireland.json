@@ -1,1 +1,1 @@
-{"status":"fail","data":{"message":"call_per_minute_limit_reached"}}
+{"status":"success","data":{"city":"Dublin","state":"Leinster","country":"Ireland","location":{"type":"Point","coordinates":[-6.24889,53.333059999999996]},"current":{"weather":{"ts":"2019-05-07T16:00:00.000Z","__v":0,"createdAt":"2019-05-07T16:03:45.216Z","hu":66,"ic":"04d","pr":1008,"tp":10,"updatedAt":"2019-05-07T16:03:45.216Z","wd":130,"ws":5.1},"pollution":{"ts":"2019-05-07T14:00:00.000Z","aqius":46,"mainus":"p2","aqicn":24,"maincn":"p1"}}}}

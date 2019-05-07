@@ -1,1 +1,1 @@
-{"status":"fail","data":{"message":"call_per_minute_limit_reached"}}
+{"status":"success","data":{"city":"Vilnius","state":"Vilnius","country":"Lithuania","location":{"type":"Point","coordinates":[25.28944397,54.71527862949409]},"current":{"weather":{"ts":"2019-05-07T16:00:00.000Z","hu":32,"ic":"01d","pr":1011,"tp":12,"wd":290,"ws":6.2},"pollution":{"ts":"2019-05-07T16:00:00.000Z","aqius":41,"mainus":"p2","aqicn":24,"maincn":"p1"}}}}

@@ -1,1 +1,1 @@
-{"status":"fail","data":{"message":"call_per_minute_limit_reached"}}
+{"status":"success","data":{"city":"Bucharest","state":"Bucuresti","country":"Romania","location":{"type":"Point","coordinates":[26.10626,44.43225]},"current":{"weather":{"ts":"2019-05-07T16:00:00.000Z","hu":81,"ic":"10d","pr":1010,"tp":10,"wd":40,"ws":1.5},"pollution":{"ts":"2019-05-07T16:00:00.000Z","aqius":21,"mainus":"p2","aqicn":7,"maincn":"p2"}}}}
