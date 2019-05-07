@@ -12,7 +12,7 @@ source ./config.sh
 
 
 
-cat data/switzerland.json | jq -c ' |
+cat data/switzerland.json | jq -c '
 {	
    city:		.data.city
 ,   country:	.data.country
