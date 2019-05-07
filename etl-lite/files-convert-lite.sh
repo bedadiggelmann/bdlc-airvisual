@@ -12,13 +12,13 @@ source ./config.sh
 
 
 
-cat data/switzerland.json | jq -c ' .data.pollution |
+cat data/switzerland.json | jq -c ' |
 {	
-   city:		"Bern"
-,   country:		"Switzerland"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.pollution.ts
+,  aqius:       .data.pollution.aqius
+,  aqicn:       .data.pollution.aqicn
 }
 ' > data/switzerland.current.json
 
@@ -206,7 +206,7 @@ cat data/Italy.json | jq -c ' .data.pollution |
 ,  aqius:       .aqius
 ,  aqicn:       .aqicn
 }
-' > data/Italy.current.json
+' > data/italy.current.json
 
 ## ##################################################
 ## convert latvia
@@ -376,6 +376,19 @@ cat data/turkey.json | jq -c ' .data.pollution |
 ,  aqicn:       .aqicn
 }
 ' > data/turkey.current.json
+
+## ##################################################
+## convert ukraine
+
+cat data/ukraine.json | jq -c ' .data.pollution |
+{	
+   city:		"Kiyv"
+,   country:		"ukraine"
+,  ts:      	.ts
+,  aqius:       .aqius
+,  aqicn:       .aqicn
+}
+' > data/ukraine.current.json
 
 ## ##################################################
 ## convert uk
