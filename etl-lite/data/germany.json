@@ -1,0 +1,1 @@
+{"status":"success","data":{"city":"Berlin","state":"Berlin","country":"Germany","location":{"type":"Point","coordinates":[13.31825,52.463611]},"current":{"weather":{"ts":"2019-05-07T15:00:00.000Z","hu":32,"ic":"01d","pr":1016,"tp":13,"wd":280,"ws":3.6},"pollution":{"ts":"2019-05-07T16:00:00.000Z","aqius":7,"mainus":"p2","aqicn":2,"maincn":"p2"}}}}
