@@ -117,7 +117,7 @@ cat data/cyprus.json | jq -c '
 }
 ' > data/cyprus.current.json
 
-wait 1m
+
 
 ## ##################################################
 ## convert Czech Republic
@@ -223,7 +223,7 @@ cat data/latvia.json | jq -c '
 }
 ' > data/latvia.current.json
 
-wait 1m
+
 
 ## ##################################################
 ## convert lithuania
@@ -329,7 +329,7 @@ cat data/romania.json | jq -c '
 }
 ' > data/romania.current.json
 
-wait 1m
+
 
 ## ##################################################
 ## convert slovakia
