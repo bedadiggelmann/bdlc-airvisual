@@ -1,0 +1,1 @@
+{"status":"success","data":{"city":"Prague","state":"Praha","country":"Czech Republic","location":{"type":"Point","coordinates":[14.411826111111111,50.042003611111106]},"current":{"weather":{"ts":"2019-05-05T12:00:00.000Z","hu":48,"ic":"04d","pr":1015,"tp":8,"wd":340,"ws":6.7},"pollution":{"ts":"2019-05-05T11:00:00.000Z","aqius":31,"mainus":"p2","aqicn":24,"maincn":"o3"}}}}
