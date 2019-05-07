@@ -1,21 +1,21 @@
 {
   "city": "Bern",
   "country": "Switzerland",
-  "ts": "2019-05-07T15:00:00.000Z",
+  "ts": "2019-05-07T16:00:00.000Z",
   "aqius": 37,
-  "aqicn": 24
+  "aqicn": 25
 }
 {
   "city": "Berlin",
   "country": "Germany",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 7,
-  "aqicn": 2
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 8,
+  "aqicn": 3
 }
 {
   "city": "Brussels",
   "country": "Belgium",
-  "ts": "2019-05-07T15:00:00.000Z",
+  "ts": "2019-05-07T16:00:00.000Z",
   "aqius": 55,
   "aqicn": 29
 }
@@ -29,44 +29,44 @@
 {
   "city": "Vienna",
   "country": "Austria",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 37,
   "aqicn": 28
 }
 {
   "city": "Sarajevo",
   "country": "Bosnia Herzegovina",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 37,
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 53,
   "aqicn": 29
 }
 {
   "city": "Sofia",
   "country": "Bulgaria",
-  "ts": "2019-05-07T12:00:00.000Z",
-  "aqius": 37,
+  "ts": "2019-05-07T13:00:00.000Z",
+  "aqius": 41,
   "aqicn": 15
 }
 {
   "city": "Prague",
   "country": "Czech Republic",
-  "ts": "2019-05-07T15:00:00.000Z",
-  "aqius": 43,
-  "aqicn": 28
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 38,
+  "aqicn": 29
 }
 {
   "city": "Copenhagen",
   "country": "Denmark",
-  "ts": "2019-05-07T14:00:00.000Z",
-  "aqius": 2,
-  "aqicn": 5
+  "ts": "2019-05-07T15:00:00.000Z",
+  "aqius": 1,
+  "aqicn": 2
 }
 {
   "city": "Helsinki",
   "country": "Finland",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 20,
-  "aqicn": 21
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 23,
+  "aqicn": 12
 }
 {
   "city": "Paris",
@@ -78,37 +78,37 @@
 {
   "city": "Budapest",
   "country": "Hungary",
-  "ts": "2019-05-07T15:00:00.000Z",
-  "aqius": 40,
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 39,
   "aqicn": 15
 }
 {
   "city": "Dublin",
   "country": "Ireland",
-  "ts": "2019-05-07T14:00:00.000Z",
-  "aqius": 46,
-  "aqicn": 24
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 34,
+  "aqicn": 26
 }
 {
   "city": "Riga",
   "country": "Latvia",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 6,
-  "aqicn": 2
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 7,
+  "aqicn": 3
 }
 {
   "city": "Vilnius",
   "country": "Lithuania",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 41,
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 42,
   "aqicn": 24
 }
 {
   "city": "Esch-sur-Alzette",
   "country": "Luxembourg",
-  "ts": "2019-05-07T14:00:00.000Z",
-  "aqius": 45,
-  "aqicn": 29
+  "ts": "2019-05-07T15:00:00.000Z",
+  "aqius": 50,
+  "aqicn": 30
 }
 {
   "city": "Skopje",
@@ -120,51 +120,51 @@
 {
   "city": "Amsterdam",
   "country": "Netherlands",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 41,
   "aqicn": 14
 }
 {
   "city": "Oslo",
   "country": "Norway",
-  "ts": "2019-05-07T05:00:00.000Z",
+  "ts": "2019-05-07T06:00:00.000Z",
   "aqius": 22,
-  "aqicn": 10
+  "aqicn": 17
 }
 {
   "city": "Warsaw",
   "country": "Poland",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 55,
-  "aqicn": 44
+  "aqicn": 45
 }
 {
   "city": "Lisbon",
   "country": "Portugal",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 23,
-  "aqicn": 8
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 33,
+  "aqicn": 11
 }
 {
   "city": "Bucharest",
   "country": "Romania",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 21,
   "aqicn": 7
 }
 {
   "city": "Bratislava",
   "country": "Slovakia",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 50,
-  "aqicn": 35
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 41,
+  "aqicn": 33
 }
 {
   "city": "Madrid",
   "country": "Spain",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 50,
-  "aqicn": 20
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 53,
+  "aqicn": 22
 }
 {
   "city": null,
@@ -176,16 +176,16 @@
 {
   "city": "Ankara",
   "country": "Turkey",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 221,
-  "aqicn": 220
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 206,
+  "aqicn": 205
 }
 {
   "city": "Kyiv",
   "country": "Ukraine",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 124,
-  "aqicn": 62
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 55,
+  "aqicn": 20
 }
 {
   "city": "London",
@@ -197,21 +197,21 @@
 {
   "city": "Bern",
   "country": "Switzerland",
-  "ts": "2019-05-07T15:00:00.000Z",
+  "ts": "2019-05-07T16:00:00.000Z",
   "aqius": 37,
-  "aqicn": 24
+  "aqicn": 25
 }
 {
   "city": "Berlin",
   "country": "Germany",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 7,
-  "aqicn": 2
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 8,
+  "aqicn": 3
 }
 {
   "city": "Brussels",
   "country": "Belgium",
-  "ts": "2019-05-07T15:00:00.000Z",
+  "ts": "2019-05-07T16:00:00.000Z",
   "aqius": 55,
   "aqicn": 29
 }
@@ -225,44 +225,44 @@
 {
   "city": "Vienna",
   "country": "Austria",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 37,
   "aqicn": 28
 }
 {
   "city": "Sarajevo",
   "country": "Bosnia Herzegovina",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 37,
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 53,
   "aqicn": 29
 }
 {
   "city": "Sofia",
   "country": "Bulgaria",
-  "ts": "2019-05-07T12:00:00.000Z",
-  "aqius": 37,
+  "ts": "2019-05-07T13:00:00.000Z",
+  "aqius": 41,
   "aqicn": 15
 }
 {
   "city": "Prague",
   "country": "Czech Republic",
-  "ts": "2019-05-07T15:00:00.000Z",
-  "aqius": 43,
-  "aqicn": 28
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 38,
+  "aqicn": 29
 }
 {
   "city": "Copenhagen",
   "country": "Denmark",
-  "ts": "2019-05-07T14:00:00.000Z",
-  "aqius": 2,
-  "aqicn": 5
+  "ts": "2019-05-07T15:00:00.000Z",
+  "aqius": 1,
+  "aqicn": 2
 }
 {
   "city": "Helsinki",
   "country": "Finland",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 20,
-  "aqicn": 21
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 23,
+  "aqicn": 12
 }
 {
   "city": "Paris",
@@ -274,37 +274,37 @@
 {
   "city": "Budapest",
   "country": "Hungary",
-  "ts": "2019-05-07T15:00:00.000Z",
-  "aqius": 40,
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 39,
   "aqicn": 15
 }
 {
   "city": "Dublin",
   "country": "Ireland",
-  "ts": "2019-05-07T14:00:00.000Z",
-  "aqius": 46,
-  "aqicn": 24
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 34,
+  "aqicn": 26
 }
 {
   "city": "Riga",
   "country": "Latvia",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 6,
-  "aqicn": 2
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 7,
+  "aqicn": 3
 }
 {
   "city": "Vilnius",
   "country": "Lithuania",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 41,
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 42,
   "aqicn": 24
 }
 {
   "city": "Esch-sur-Alzette",
   "country": "Luxembourg",
-  "ts": "2019-05-07T14:00:00.000Z",
-  "aqius": 45,
-  "aqicn": 29
+  "ts": "2019-05-07T15:00:00.000Z",
+  "aqius": 50,
+  "aqicn": 30
 }
 {
   "city": "Skopje",
@@ -316,51 +316,51 @@
 {
   "city": "Amsterdam",
   "country": "Netherlands",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 41,
   "aqicn": 14
 }
 {
   "city": "Oslo",
   "country": "Norway",
-  "ts": "2019-05-07T05:00:00.000Z",
+  "ts": "2019-05-07T06:00:00.000Z",
   "aqius": 22,
-  "aqicn": 10
+  "aqicn": 17
 }
 {
   "city": "Warsaw",
   "country": "Poland",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 55,
-  "aqicn": 44
+  "aqicn": 45
 }
 {
   "city": "Lisbon",
   "country": "Portugal",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 23,
-  "aqicn": 8
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 33,
+  "aqicn": 11
 }
 {
   "city": "Bucharest",
   "country": "Romania",
-  "ts": "2019-05-07T16:00:00.000Z",
+  "ts": "2019-05-07T17:00:00.000Z",
   "aqius": 21,
   "aqicn": 7
 }
 {
   "city": "Bratislava",
   "country": "Slovakia",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 50,
-  "aqicn": 35
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 41,
+  "aqicn": 33
 }
 {
   "city": "Madrid",
   "country": "Spain",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 50,
-  "aqicn": 20
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 53,
+  "aqicn": 22
 }
 {
   "city": null,
@@ -372,16 +372,212 @@
 {
   "city": "Ankara",
   "country": "Turkey",
-  "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 221,
-  "aqicn": 220
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 206,
+  "aqicn": 205
 }
 {
   "city": "Kyiv",
   "country": "Ukraine",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 55,
+  "aqicn": 20
+}
+{
+  "city": "London",
+  "country": "United Kingdom",
+  "ts": "2019-05-05T05:00:00.000Z",
+  "aqius": 31,
+  "aqicn": 15
+}
+{
+  "city": "Bern",
+  "country": "Switzerland",
   "ts": "2019-05-07T16:00:00.000Z",
-  "aqius": 124,
-  "aqicn": 62
+  "aqius": 37,
+  "aqicn": 25
+}
+{
+  "city": "Berlin",
+  "country": "Germany",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 8,
+  "aqicn": 3
+}
+{
+  "city": "Brussels",
+  "country": "Belgium",
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 55,
+  "aqicn": 29
+}
+{
+  "city": "Escaldes-Engordany",
+  "country": "Andorra",
+  "ts": "2019-05-07T10:00:00.000Z",
+  "aqius": 36,
+  "aqicn": 28
+}
+{
+  "city": "Vienna",
+  "country": "Austria",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 37,
+  "aqicn": 28
+}
+{
+  "city": "Sarajevo",
+  "country": "Bosnia Herzegovina",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 53,
+  "aqicn": 29
+}
+{
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "ts": "2019-05-07T13:00:00.000Z",
+  "aqius": 41,
+  "aqicn": 15
+}
+{
+  "city": "Prague",
+  "country": "Czech Republic",
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 38,
+  "aqicn": 29
+}
+{
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "ts": "2019-05-07T15:00:00.000Z",
+  "aqius": 1,
+  "aqicn": 2
+}
+{
+  "city": "Helsinki",
+  "country": "Finland",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 23,
+  "aqicn": 12
+}
+{
+  "city": "Paris",
+  "country": "France",
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 48,
+  "aqicn": 27
+}
+{
+  "city": "Budapest",
+  "country": "Hungary",
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 39,
+  "aqicn": 15
+}
+{
+  "city": "Dublin",
+  "country": "Ireland",
+  "ts": "2019-05-07T16:00:00.000Z",
+  "aqius": 34,
+  "aqicn": 26
+}
+{
+  "city": "Riga",
+  "country": "Latvia",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 7,
+  "aqicn": 3
+}
+{
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 42,
+  "aqicn": 24
+}
+{
+  "city": "Esch-sur-Alzette",
+  "country": "Luxembourg",
+  "ts": "2019-05-07T15:00:00.000Z",
+  "aqius": 50,
+  "aqicn": 30
+}
+{
+  "city": "Skopje",
+  "country": "Macedonia",
+  "ts": "2019-05-03T10:00:00.000Z",
+  "aqius": 87,
+  "aqicn": 42
+}
+{
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 41,
+  "aqicn": 14
+}
+{
+  "city": "Oslo",
+  "country": "Norway",
+  "ts": "2019-05-07T06:00:00.000Z",
+  "aqius": 22,
+  "aqicn": 17
+}
+{
+  "city": "Warsaw",
+  "country": "Poland",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 55,
+  "aqicn": 45
+}
+{
+  "city": "Lisbon",
+  "country": "Portugal",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 33,
+  "aqicn": 11
+}
+{
+  "city": "Bucharest",
+  "country": "Romania",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 21,
+  "aqicn": 7
+}
+{
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 41,
+  "aqicn": 33
+}
+{
+  "city": "Madrid",
+  "country": "Spain",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 53,
+  "aqicn": 22
+}
+{
+  "city": null,
+  "country": null,
+  "ts": null,
+  "aqius": null,
+  "aqicn": null
+}
+{
+  "city": "Ankara",
+  "country": "Turkey",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 206,
+  "aqicn": 205
+}
+{
+  "city": "Kyiv",
+  "country": "Ukraine",
+  "ts": "2019-05-07T17:00:00.000Z",
+  "aqius": 55,
+  "aqicn": 20
 }
 {
   "city": "London",
