@@ -26,26 +26,26 @@ cat data/switzerland.json | jq -c '
 ## ##################################################
 ## convert Germany
 
-cat data/germany.json | jq -c ' .data.pollution |
+cat data/germany.json | jq -c ' 
 {	
-   city:		"Berlin"
-,   country:		"Germany"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/germany.current.json
 
 ## ##################################################
 ## convert Belgium
 
-cat data/belgium.json | jq -c ' .data.pollution |
+cat data/belgium.json | jq -c ' 
 {	
-   city:		"Brussels"
-,   country:		"Belgium"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/belgium.current.json
 
@@ -53,13 +53,13 @@ cat data/belgium.json | jq -c ' .data.pollution |
 ## convert Andorra
 
 
-cat data/andorra.json | jq -c ' .data.pollution |
+cat data/andorra.json | jq -c ' 
 {	
-   city:		"Escaldes-Engordany"
-,   country:		"Andorra"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/andorra.current.json
 
@@ -67,13 +67,13 @@ cat data/andorra.json | jq -c ' .data.pollution |
 ## convert Austria
 
 
-cat data/austria.json | jq -c ' .data.pollution |
+cat data/austria.json | jq -c ' 
 {	
-   city:		"Vienna"
-,   country:		"Austria"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/austria.current.json
 
@@ -81,324 +81,324 @@ cat data/austria.json | jq -c ' .data.pollution |
 ## convert Bosnia-Herzegovina
 
 
-cat data/bosnia.json | jq -c ' .data.pollution |
+cat data/bosnia.json | jq -c ' 
 {	
-   city:		"Sarajevo"
-,   country:		"Bosnia-Herzegovina"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/bosnia.current.json
 
 ## ##################################################
 ## convert Bulgaria
 
-cat data/bulgaria.json | jq -c ' .data.pollution |
+cat data/bulgaria.json | jq -c ' 
 {	
-   city:		"Sofia"
-,   country:		"Bulgaria"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/bulgaria.current.json
 
 ## ##################################################
 ## convert Cyprus
 
-cat data/cyprus.json | jq -c ' .data.pollution |
+cat data/cyprus.json | jq -c ' 
 {	
-   city:		"Nicosia"
-,   country:		"Cyprus"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/cyprus.current.json
 
 ## ##################################################
 ## convert Czech Republic
 
-cat data/czechrepublic.json | jq -c ' .data.pollution |
+cat data/czechrepublic.json | jq -c ' 
 {	
-   city:		"Prague"
-,   country:		"czechrepublic"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/czechrepublic.current.json
 
 ## ##################################################
 ## convert Denmark
 
-cat data/denmark.json | jq -c ' .data.pollution |
+cat data/denmark.json | jq -c ' 
 {	
-   city:		"Copenhagen"
-,   country:		"denmark"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/denmark.current.json
 
 ## ##################################################
 ## convert Finland
 
-cat data/finland.json | jq -c ' .data.pollution |
+cat data/finland.json | jq -c ' 
 {	
-   city:		"Helsinki"
-,   country:		"finland"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/finland.current.json
 
 ## ##################################################
 ## convert france
 
-cat data/france.json | jq -c ' .data.pollution |
+cat data/france.json | jq -c ' 
 {	
-   city:		"Paris"
-,   country:		"france"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/france.current.json
 
 ## ##################################################
 ## convert hungary
 
-cat data/hungary.json | jq -c ' .data.pollution |
+cat data/hungary.json | jq -c ' 
 {	
-   city:		"Budapest"
-,   country:		"hungary"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/hungary.current.json
 
 ## ##################################################
 ## convert ireland
 
-cat data/ireland.json | jq -c ' .data.pollution |
+cat data/ireland.json | jq -c ' 
 {	
-   city:		"Dublin"
-,   country:		"ireland"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/ireland.current.json
 
 ## ##################################################
 ## convert Italy
 
-cat data/Italy.json | jq -c ' .data.pollution |
+cat data/Italy.json | jq -c ' 
 {	
-   city:		"Venice"
-,   country:		"Italy"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/italy.current.json
 
 ## ##################################################
 ## convert latvia
 
-cat data/latvia.json | jq -c ' .data.pollution |
+cat data/latvia.json | jq -c ' 
 {	
-   city:		"Riga"
-,  country:		"latvia"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/latvia.current.json
 
 ## ##################################################
 ## convert lithuania
 
-cat data/lithuania.json | jq -c ' .data.pollution |
+cat data/lithuania.json | jq -c ' 
 {	
-   city:		"Vilnius"
-,  country:		"lithuania"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/lithuania.current.json
 
 ## ##################################################
 ## convert luxembourg
 
-cat data/luxembourg.json | jq -c ' .data.pollution |
+cat data/luxembourg.json | jq -c ' 
 {	
-   city:		"Esch-sur-Alzette"
-,   country:		"luxembourg"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/luxembourg.current.json
 
 ## ##################################################
 ## convert macedonia
 
-cat data/macedonia.json | jq -c ' .data.pollution |
+cat data/macedonia.json | jq -c ' 
 {	
-   city:		"Skopje"
-,   country:		"macedonia"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/macedonia.current.json
 
 ## ##################################################
 ## convert netherlands
 
-cat data/netherlands.json | jq -c ' .data.pollution |
+cat data/netherlands.json | jq -c ' 
 {	
-   city:		"Amsterdam"
-,   country:		"netherlands"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/netherlands.current.json
 
 ## ##################################################
 ## convert norway
 
-cat data/norway.json | jq -c ' .data.pollution |
+cat data/norway.json | jq -c ' 
 {	
-   city:		"Oslo"
-,   country:		"norway"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/norway.current.json
 
 ## ##################################################
 ## convert poland
 
-cat data/poland.json | jq -c ' .data.pollution |
+cat data/poland.json | jq -c ' 
 {	
-   city:		"Warsaw"
-,   country:		"poland"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/poland.current.json
 
 ## ##################################################
 ## convert portugal
 
-cat data/portugal.json | jq -c ' .data.pollution |
+cat data/portugal.json | jq -c ' 
 {	
-   city:		"Lisbon"
-,   country:		"portugal"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/portugal.current.json
 
 ## ##################################################
 ## convert romania
 
-cat data/romania.json | jq -c ' .data.pollution |
+cat data/romania.json | jq -c ' 
 {	
-   city:		"Bucharest"
-,   country:		"romania"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/romania.current.json
 
 ## ##################################################
 ## convert slovakia
 
-cat data/slovakia.json | jq -c ' .data.pollution |
+cat data/slovakia.json | jq -c ' 
 {	
-   city:		"Bratislava"
-,   country:		"slovakia"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/slovakia.current.json
 
 ## ##################################################
 ## convert spain
 
-cat data/spain.json | jq -c ' .data.pollution |
+cat data/spain.json | jq -c ' 
 {	
-   city:		"Madrid"
-,   country:		"spain"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/spain.current.json
 
 ## ##################################################
 ## convert sweden
 
-cat data/sweden.json | jq -c ' .data.pollution |
+cat data/sweden.json | jq -c ' 
 {	
-   city:		"Stockholm"
-,   country:		"sweden"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/sweden.current.json
 
 ## ##################################################
 ## convert turkey
 
-cat data/turkey.json | jq -c ' .data.pollution |
+cat data/turkey.json | jq -c ' 
 {	
-   city:		"Ankara"
-,   country:		"turkey"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/turkey.current.json
 
 ## ##################################################
 ## convert ukraine
 
-cat data/ukraine.json | jq -c ' .data.pollution |
+cat data/ukraine.json | jq -c ' 
 {	
-   city:		"Kiyv"
-,   country:		"ukraine"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/ukraine.current.json
 
 ## ##################################################
 ## convert uk
 
-cat data/uk.json | jq -c ' .data.pollution |
+cat data/uk.json | jq -c ' 
 {	
-   city:		"London"
-,   country:		"uk"
-,  ts:      	.ts
-,  aqius:       .aqius
-,  aqicn:       .aqicn
+   city:		.data.city
+,   country:	.data.country
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/uk.current.json
