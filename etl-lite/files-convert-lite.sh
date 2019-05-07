@@ -16,9 +16,9 @@ cat data/switzerland.json | jq -c '
 {	
    city:		.data.city
 ,   country:	.data.country
-,  ts:      	.data.pollution.ts
-,  aqius:       .data.pollution.aqius
-,  aqicn:       .data.pollution.aqicn
+,  ts:      	.data.current.pollution.ts
+,  aqius:       .data.current.pollution.aqius
+,  aqicn:       .data.current.pollution.aqicn
 }
 ' > data/switzerland.current.json
 
