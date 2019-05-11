@@ -1,3 +1,4 @@
+cd $(dirname $0)
 ./files-fetch.sh
 ./files-convert-lite.sh
 ./files-combine-lite.sh

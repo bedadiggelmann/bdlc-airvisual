@@ -42,7 +42,7 @@ curl -sSLG "https://api.airvisual.com/v2/city?city=Bucharest&state=Bucuresti&cou
 sleep 1m
 curl -sSLG "https://api.airvisual.com/v2/city?city=Bratislava&state=Bratislava&country=Slovakia&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/slovakia.json 
 curl -sSLG "https://api.airvisual.com/v2/city?city=Madrid&state=Madrid&country=Spain&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/spain.json 
-curl -sSLG "https://api.airvisual.com/v2/city?city=Uppsala&state=Uppsala-län&country=Sweden&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/sweden.json 
+curl -sSLG "api.airvisual.com/v2/city?city=Gavle&state=Gaevleborg&country=Sweden&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/sweden.json 
 curl -sSLG "https://api.airvisual.com/v2/city?city=Ankara&state=Ankara&country=Turkey&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/turkey.json 
 curl -sSLG "https://api.airvisual.com/v2/city?city=Kyiv&state=Kyiv&country=Ukraine&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/ukraine.json 
 curl -sSLG "https://api.airvisual.com/v2/city?city=London&state=England&country=UK&key=LndE4cvvmM6A8LL2f" | jq  -c '.'  >data/uk.json 

@@ -9,8 +9,9 @@ source ./config.sh
 
 ## ##################################################
 ## push files to hdfs
-hdfs dfs -mkdir -p /user/${User}/load
+hdfs dfs -mkdir -p /tmp/load
 
-hdfs dfs -put  data/current.json      /user/${USER}/load/
+hdfs dfs -rm /tmp/load/current.json
+hdfs dfs -put  data/current.json      /tmp/load/
 
 
